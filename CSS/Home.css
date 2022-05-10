@@ -1,17 +1,19 @@
 body {
-  background-image: url('Background.png');
-  background-size: cover;
+  /* background-image: url('background.jpg');
+  background-color: black;
+  background-size: cover; */
   margin: 0;
 }
 
-/* .BG1 {
-  background-image: url('Background.png');
+.BG1 {
+  background-image: url('background.jpg');
   background-size: cover;
+  /* background-color: black; */
   width: auto;
-  height: 750px;
-  filter: saturate(0%);
-  filter: contrast(0%);
-} */
+  height: 749px;
+  /* filter: saturate(0%);
+  filter: contrast(0%); */
+}
 
 /* .nav {
     display: block;
@@ -27,7 +29,6 @@ body {
   font-family: 'rancho';
   float: right;
   background-color: #AAAAAA;
-
 }
 
 .nav a:hover {

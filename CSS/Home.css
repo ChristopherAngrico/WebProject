@@ -1,0 +1,109 @@
+body {
+  background-image: url('Background.png');
+  background-size: cover;
+  margin: 0;
+}
+
+/* .BG1 {
+  background-image: url('Background.png');
+  background-size: cover;
+  width: auto;
+  height: 750px;
+  filter: saturate(0%);
+  filter: contrast(0%);
+} */
+
+/* .nav {
+    display: block;
+    overflow: auto;
+    background-color: #87827B;
+    width: 100%;
+    height: auto;
+    font-family: 'rancho';
+} */
+
+.nav {
+  list-style-type: none;
+  font-family: 'rancho';
+  float: right;
+  background-color: #AAAAAA;
+
+}
+
+.nav a:hover {
+  background-color: grey;
+  color: white;
+}
+
+.nav a {
+  float: right;
+  text-align: center;
+  color: white;
+  padding: 16px 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a.active {
+  background-color: black;
+  color: white;
+}
+
+#box {
+  width: 35%;
+  height: 35%;
+  background-color: #A56C6C;
+  position: absolute;
+  top: 450px;
+  left: 40px;
+  background-color: rgba(165, 108, 108, 0.4);
+
+}
+
+/* .box{
+ background-image: url('text.png');
+ width: 35%;
+ height: 35%;
+ top: 450px;
+ left: 40px;
+} */
+
+@font-face {
+  font-family: 'rocksalt';
+  src: url(../rock-salt/RockSalt.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'sevillana';
+  src: url(Sevillana/Sevillana-Regular);
+}
+
+@font-face {
+  font-family: 'rancho';
+  src: url(../rancho/Rancho-Regular.ttf) format('truetype');
+}
+
+#headline {
+  font-family: 'rocksalt';
+  color: black;
+  position: absolute;
+  left: 27%;
+  font-size: 25px;
+}
+
+#contain {
+  font-family: 'sevillana';
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  overflow: hidden;
+  margin-top: -6px;
+}
